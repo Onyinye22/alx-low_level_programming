@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - last digit
+ * main - data entry
  *
  *
  * Return: always return 0
@@ -12,7 +12,7 @@
 int main(void)
 {
 	int n;
-	int lastn;
+	int last_n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
