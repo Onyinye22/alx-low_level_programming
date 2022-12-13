@@ -1,4 +1,4 @@
-#include "Onyinye.o"
+#include "Onyinye.h"
 
 /**
  * main - Putchar
