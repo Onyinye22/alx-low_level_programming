@@ -1,20 +1,21 @@
-#include "Onyinye.h"
+#include "_putchar.h"
 
 /**
  * main - Putchar
  *
- * Return: Always returns 0
+ * Return: Always return 0
  *
  */
 int main(void)
 {
-	_putchar('O');
-	_putchar('n');
-	_putchar('y');
-	_putchar('i');
-	_putchar('n');
-	_putchar('y');
-	_putchar('e');
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r')
 	_putchar('\n');
 	return (0);
 }
