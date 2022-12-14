@@ -1,4 +1,5 @@
 include "main.h"
+
 /**
  * _islower - lower function
  *
@@ -10,7 +11,7 @@ include "main.h"
 
 int _islower(int c)
 {
-	if (c >= 'a' && c <= 'z')
+	if (c >= 50 && c <= 150)
 	{
 		return (1);
 	}
