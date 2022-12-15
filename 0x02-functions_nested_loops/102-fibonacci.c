@@ -1,34 +1,29 @@
 #include <stdio.h>
-
 /**
- * main - Fibonacci numbers 
- * Return: something
+ * main - main function
+ *
+ * Return: nothing
  */
-
 int main(void)
-
 {
-	long int a, b, c, d;
+	int counter = 2;
+	long int a = 1;
+	long int b = a + 1;
+	long int c = a + b;
 
-	b = 1;
-	c = 2;
-
-	for (a = 1; a <= 50; ++a)
+	printf("%ld, %ld, ", a, b);
+	while (counter < 50)
 	{
-		if (b != 20365011074)
-		{
-			printf("%ld, ", b);
-		}
-
-		else
-		{
-			printf("%ld\n", b);
-		}
-
-		d= b + c;
+		printf("%ld", c);
+		counter++;
+		a = b;
 		b = c;
-		c = d;
+		c = a + b;
+		if (counter < 50)
+		{
+			printf(", ");
+		}
 	}
-
+	printf("\n");
 	return (0);
 }
