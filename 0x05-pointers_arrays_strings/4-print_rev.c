@@ -5,13 +5,16 @@
  *
  * @s: string to print
  */
+
 void print_rev(char *s)
 {
-	int i;
+	int i = 0;
 
-	for (i = _strlen(s) - 1; i >= 0; i--)
+	while (str[i] != '\0')
 	{
-		_putchar(*(s + i));
+		_putchar(str[i]);
+		 i++;
 	}
+
 	_putchar('\n');
 }
