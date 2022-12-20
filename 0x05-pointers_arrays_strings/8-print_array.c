@@ -1,10 +1,10 @@
-#include "maiin.h"
+#include <stdio.h>
+#include "main.h"
 
 /**
- * print_array - prints array
- * @a: pointer of array
- * @n: how many times to prints
- *
+ * print_array - Function prints element of array of integers
+ * @a: Pointer parameter
+ * @n: integer variable
  */
 void print_array(int *a, int n)
 {
