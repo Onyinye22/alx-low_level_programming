@@ -1,4 +1,4 @@
-#include "main.h"
+#include "maiin.h"
 
 /**
  * print_array - prints array
