@@ -7,7 +7,6 @@
  *
  * Return: returns new value
  */
-
 char *_strpbrk(char *s, char *accept)
 {
 	int i;

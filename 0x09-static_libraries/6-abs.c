@@ -1,17 +1,22 @@
 #include "main.h"
 
 /**
- * _abs - main function
+ * _abs - Absolute value of an integer
+ * @n: The int to be operated upon
  *
- * @n: integer to make absolute
- * Return: int or int times negative
- *
+ * Return: an unsigned int value
  */
 
 int _abs(int n)
 {
 	if (n > 0)
+	{
 		return (n);
+	}
+
 	else
-		return (n * -1);
+	{
+		n *= -1;
+		return (n);
+	}
 }

@@ -1,9 +1,8 @@
 #include "main.h"
-
 /**
- * _islower - main function
+ * _islower - lower function
  *
- * @c: character to compare
+ * @c: compare character
  *
  * Return: 1 if true, 0 if false
  *
@@ -11,9 +10,8 @@
 
 int _islower(int c)
 {
-	if (c >= 'a' && c <= 'z')
-	{
+	if (c >= 97 && c <= 122)
 		return (1);
-	}
-	return (0);
+	else
+		return (0);
 }
