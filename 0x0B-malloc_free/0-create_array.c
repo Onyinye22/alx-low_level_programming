@@ -6,35 +6,20 @@
  * create_array - creates array
  * @size: size of array to create
  * @char: char to initialize
- * Return: 0
+ * Return: 0 
  */
-
-char *create_array(unsigned int size, char c);
+char *create_array(unsigned int size, char c)
 {
-	char *b;
-	unsigned int x;
-	
-	if (size == 0)
-	{
+	char *t;
+	unsigned int i;
+
+	if (size <= 0)
 		return (NULL);
-	}
-
-	/*Define values with malloc*/
-	b = (char *) malloc(size * size of(c));
-
-	if (b == 0)
-	{
+	t = malloc(sizeof(char) * size);
+	if (t == NULL)
 		return (NULL);
-	}
-	else
-	{
-		x = 0;
-		while (position < size) /*While for array*/
-		{
-			*(b + x) = c;
-			b++;
-		}
+	for (i = 0; i < size; i++)
+		t[i] = c;
 
-		return (b);
-	}
+	return (t);
 }
