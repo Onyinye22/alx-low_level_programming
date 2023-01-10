@@ -1,12 +1,10 @@
-#include "main.h"
-#include <stdio.h>
 #include <stdlib.h>
-
-/*
- * create_array - creates array
- * @size: size of array to create
- * @char: char to initialize
- * Return: 0 
+#include "main.h"
+/**
+ * create_array - creates an array of chars dynamically
+ * @size: size of the array
+ * @c: the string
+ * Return: 0 means success except defined otherwise
  */
 char *create_array(unsigned int size, char c)
 {
