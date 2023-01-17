@@ -1,4 +1,3 @@
-s (20 sloc)  414 Bytes
 #ifndef DOG_H
 #define DOG_H
 /**
